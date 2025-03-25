@@ -14,7 +14,7 @@ In this project, the goal is to estimate the relative transformation (rotation a
 ## Files
 
 - **`ICP.m`**: Contains the main function for the Iterative Closest Point algorithm, which refines the transformation (rotation and translation) iteratively.
-- **`generate_data.m`**: This  script is responsible for generating synthetic 3D point cloud data that can be used for testing the ICP algorithm. This file creates two point clouds with a known rigid transformation (rotation and translation), which allows you to validate the performance of the ICP algorithm by comparing the estimated transformation with the known true values.
+- **`generatedata.m`**: This  script is responsible for generating synthetic 3D point cloud data that can be used for testing the ICP algorithm. This file creates two point clouds with a known rigid transformation (rotation and translation), which allows you to validate the performance of the ICP algorithm by comparing the estimated transformation with the known true values.
 - **`pclX.txt`, `pclY.txt`**: Example 3D point clouds that will be registered using ICP. These are used as input files for the algorithm.
 
 
